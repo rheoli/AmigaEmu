@@ -1,0 +1,21 @@
+/*
+0x0000 0000 2024.0 Chip RAM 
+0x00C0 0000 1536.0 Slow RAM
+
+0x00F8 0000 256.0           256K System ROM (Kickstart 2.04 or higher)
+0x00FC 0000 256.0 256K Systemstem ROM
+
+0x00DF F000 4.0 Custom chip registers
+0x00BF D000 3.8 8520-B (even-byte addresses)
+0x00BF E001 3.8 8520-A (odd-byte addresseses)
+0x00DC 0000 64.0 Real time clock
+
+0x00F0 0000 512.0 Reserved 51212K System ROM (CDTV or CD³²)
+0x00E0 0000 512.0 Reserved
+0x00A0 0000 1984.0 Reserved
+0x00D8 0000 256.0 Reserved
+0x00DD 0000 188.0 Re
+0x0020 0000 8192.0 Primary auto-config space (Fast RAM)
+0x00E8 0000 64.0 Zorro II auto-config space (before relocation)
+0x00E9 000000 448.0 Secondary auto-config space (usually 64K I/O boards)
+*/64K
